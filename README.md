@@ -1,5 +1,5 @@
 # Minimum Docker image for Jupyter Notebook with MSSQL support
----
+[![Build Status](https://travis-ci.org/killua8q8/Docker-Jupyter-Notebook.svg?branch=master)](https://travis-ci.org/killua8q8/Docker-Jupyter-Notebook)
 > Docker image that built for Jupyter Notebook with minimal requirement.
 
 ## Pre-Installation
