@@ -1,2 +1,5 @@
 dsn.ini
+*.ipynb
+!Demo.ipynb
+
 .ipybn_checkpoints

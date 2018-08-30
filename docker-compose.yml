@@ -9,6 +9,12 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./notebooks:/notebooks
+      - lib:/user/local/lib
+      - jupyter:/root/.local/share/jupyter
     ports:
       - 8888:8888
     restart: unless-stopped
+
+volumes:
+  lib:
+  jupyter:
