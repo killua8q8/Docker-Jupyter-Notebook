@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  jupyter:
+    image: jupyter-notebook
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./notebooks:/notebooks
+    ports:
+      - 8888:8888
+    restart: unless-stopped
